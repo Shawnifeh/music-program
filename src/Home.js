@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 const songs = [
   { id: 1, name: "CosmicShift" },
-  { id: 2, name: "Song 2" },
-  { id: 3, name: "Song 1" },
-  { id: 4, name: "Song 4" },
+  { id: 2, name: "Ghost Circuit" },
+  { id: 3, name: "Song 3" },
+  { id: 4, name: "Song 0" },
 ];
 
 function Home() {

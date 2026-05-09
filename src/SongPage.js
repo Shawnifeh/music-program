@@ -3,9 +3,9 @@ import './SongPage.css';
 
 const songs = {
   1: { name: "CosmicShift", src: "/CosmicShift.mp3" },
-  2: { name: "Song 2", src: "/song2.mp3" },
+  2: { name: "Ghost Circuit", src: "/Ghost Circuit.mp3" },
   3: { name: "Song 3", src: "/song3.mp3" },
-  4: { name: "Song 4", src: "/Experiment_song_0.mp3" },
+  4: { name: "Song 0", src: "/Experiment_song_0.mp3" },
 };
 
 function SongPage() {
@@ -17,9 +17,10 @@ function SongPage() {
   }
 
   return (
-    <div className="ui">
+    <div>
+      <div  className="ui">
       <Link to="/">⬅ Back</Link>
-
+     </div>
       <h1>{song.name}</h1>
 
       <audio controls autoPlay src={song.src}></audio>
