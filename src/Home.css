@@ -7,10 +7,22 @@
     border-radius: 5px;
     font-size: larger;
     border: 1px solid rgb(85, 85, 85);
-    transition: ease-in-out 0.2s;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    transition: ease-in-out 0.2s 
+
 }
 
 .music-link:hover {
     background-color: rgb(85, 85, 85);
     border: 1px solid rgb(100, 100, 100);
+}
+
+.search-bar{
+    padding: 10px;
+    margin: 20px 0;
+    background-color: rgb(224, 224, 224);
+    color: rgb(89, 89, 89);
+    border-radius: none;
 }
