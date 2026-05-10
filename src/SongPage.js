@@ -4,7 +4,7 @@ import './SongPage.css';
 const songs = {
   1: { name: "CosmicShift", src: "/CosmicShift.mp3" },
   2: { name: "Ghost Circuit", src: "/Ghost Circuit.mp3" },
-  3: { name: "Song 3", src: "/song3.mp3" },
+  3: { name: "Wistful IceCave", src: "/Wistful IceCave.mp3" },
   4: { name: "Song 0", src: "/Experiment_song_0.mp3" },
 };
 

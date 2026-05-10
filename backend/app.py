@@ -7,7 +7,7 @@ CORS(app)
 songs = [
     {"id": "1", "name": "CosmicShift"},
     {"id": "2", "name": "Ghost Circuit"},
-    {"id": "3", "name": "Song 3"},
+    {"id": "3", "name": "Wistful IceCave"},
     {"id": "4", "name": "Song 0"}
 ]
 
