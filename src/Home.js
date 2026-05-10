@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import './Home.css';
 const songs = [
   { id: 1, name: "CosmicShift" },
   { id: 2, name: "Ghost Circuit" },
@@ -13,9 +14,11 @@ function Home() {
 
       {songs.map((song) => (
         <div key={song.id}>
+          <div className="music-link">
           <Link to={`/song/${song.id}`}>
-            ▶ {song.name}
+            {song.name}
           </Link>
+          </div>
         </div>
       ))}
       <div>

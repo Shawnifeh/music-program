@@ -1,0 +1,16 @@
+.music-link {
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-radius: 5px;
+    font-size: larger;
+    border: 1px solid rgb(85, 85, 85);
+    transition: ease-in-out 0.2s;
+}
+
+.music-link:hover {
+    background-color: rgb(85, 85, 85);
+    border: 1px solid rgb(100, 100, 100);
+}
