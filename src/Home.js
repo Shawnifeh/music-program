@@ -8,13 +8,13 @@ function Home() {
 
   // Load all songs on first load
   useEffect(() => {
-    fetch("http://127.0.0.1:5000/search?q=")
+    fetch("https://music-backend-0n0h.onrender.com/search?q=")
       .then(res => res.json())
       .then(data => setSongs(data));
   }, []);
 
   const searchSongs = () => {
-    fetch("http://127.0.0.1:5000/search?q=" + query)
+ fetch("https://music-backend-0n0h.onrender.com/search?q=" + query)
       .then(res => res.json())
       .then(data => setSongs(data));
   };
