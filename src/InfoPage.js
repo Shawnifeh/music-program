@@ -1,7 +1,7 @@
 function InfoPage() {
   return (
     <div>
-      <h1>My Music</h1>
+      <h1>This page is currently unavailable</h1>
     </div>
   );
 }

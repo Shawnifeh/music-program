@@ -18,7 +18,7 @@ function SongPage() {
 
   return (
     <div>
-      <Link to="/" className="ui">⬅ Back</Link>
+      <Link to="/" className="ui">Back</Link>
       <h1>{song.name}</h1>
 
       <audio controls autoPlay src={song.src}></audio>

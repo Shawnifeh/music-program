@@ -13,7 +13,7 @@ songs = [
 
 @app.route("/")
 def home():
-    return "Backend is running 🚀"
+    return "Backend is running!"
 
 @app.route("/search")
 def search():

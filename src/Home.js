@@ -21,18 +21,19 @@ function Home() {
 
   return (
     <div>
-      <h1>My Music</h1>
-
+    <div className="search-container">
       {/* SEARCH */}
+      <button onClick={searchSongs} className="search-btn">
+        Search
+      </button>
       <input
       className="search-bar"
         placeholder="Search music..."
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
-      <button onClick={searchSongs} className="search-bar">
-        Search
-      </button>
+    </div>
+
       {/* SONG LIST */}
       {songs.map((song) => (
         <div key={song.id}>
@@ -67,7 +68,7 @@ function Home() {
 
       {songs.map((song) => (
         <div key={song.id}>
-        <Link to={`/song/${song.id}`} className="music-link">
+g       <Link to={`/song/${song.id}`} className="music-link">
           {song.name}
         </Link>
         </div>
