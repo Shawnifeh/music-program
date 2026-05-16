@@ -6,24 +6,21 @@
     color: white;
     border-radius: 5px;
     font-size: larger;
-    border: 1px solid rgb(85, 85, 85);
     text-decoration: none;
     display: block;
-    width: 95%;
+    border: none;
     transition: ease-in-out 0.2s 
 
 }
 
 .music-link:hover {
     background-color: rgb(85, 85, 85);
-    border: 1px solid rgb(100, 100, 100);
 }
 
 .search-bar{
     background-color: rgb(224, 224, 224);
     color: rgb(89, 89, 89);
     border: none;
-    width: 90%;
     color: #00000000;
 }
 
@@ -32,13 +29,4 @@
     background-color: rgb(224, 224, 224);
     color: rgb(89, 89, 89);
     border: none;
-}
-
-.search-container{
-    background-color: rgb(224, 224, 224);
-    color: rgb(89, 89, 89);
-    border-radius: 10px;
-    border: 1px solid rgb(75, 75, 75);
-    display: block;
-    width: 80%;
 }

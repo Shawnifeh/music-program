@@ -2,8 +2,9 @@ import { useParams, Link } from "react-router-dom";
 import './SongPage.css';
 
 const songs = {
-  1: { name: "CosmicShift", src: "/CosmicShift.mp3" },
-  2: { name: "Ghost Circuit", src: "/Ghost Circuit.mp3" },
+
+  1: { name: "Ghost Circuit", src: "/Ghost Circuit.mp3" },
+  2: { name: "CosmicShift", src: "/CosmicShift.mp3" },
   3: { name: "Wistful IceCave", src: "/Wistful IceCave.mp3" },
   4: { name: "Song 0", src: "/Experiment_song_0.mp3" },
 };

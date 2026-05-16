@@ -22,7 +22,6 @@ function Home() {
 
   return (
     <div>
-    <div className="search-container">
       {/* SEARCH */}
       <button onClick={searchSongs} className="search-btn">
         Search
@@ -33,7 +32,6 @@ function Home() {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
-    </div>
 
       {/* SONG LIST */}
       {songs.map((song) => (

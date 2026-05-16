@@ -5,8 +5,8 @@ app = Flask(__name__)
 CORS(app)
 
 songs = [
-    {"id": "1", "name": "CosmicShift"},
-    {"id": "2", "name": "Ghost Circuit"},
+    {"id": "1", "name": "Ghost Circuit"},
+    {"id": "2", "name": "CosmicShift"},
     {"id": "3", "name": "Wistful IceCave"},
     {"id": "4", "name": "Song 0"}
 ]
