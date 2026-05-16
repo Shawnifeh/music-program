@@ -6,6 +6,7 @@ function Home() {
   const [query, setQuery] = useState("");
   const [songs, setSongs] = useState([]);
 
+
   // Load all songs on first load
   useEffect(() => {
     fetch("https://music-backend-0n0h.onrender.com/search?q=")
@@ -51,34 +52,3 @@ function Home() {
 }
 
 export default Home;
-/*
-import { Link } from "react-router-dom";
-import './Home.css';
-const songs = [
-  { id: 1, name: "CosmicShift" },
-  { id: 2, name: "Ghost Circuit" },
-  { id: 3, name: "Song 3" },
-  { id: 4, name: "Song 0" },
-];
-
-function Home() {
-  return (
-    <div>
-      <h1>My Music</h1>
-
-      {songs.map((song) => (
-        <div key={song.id}>
-g       <Link to={`/song/${song.id}`} className="music-link">
-          {song.name}
-        </Link>
-        </div>
-      ))}
-      <div>
-         <Link to={`/info/`}>info</Link>
-      </div>
-    </div>
-  );
-}
-
-export default Home;
-*/
