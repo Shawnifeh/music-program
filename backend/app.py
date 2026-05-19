@@ -8,8 +8,9 @@ songs = [
     {"id": "1", "name": "Parallel Horizon"},
     {"id": "2", "name": "Ghost Circuit"},
     {"id": "3", "name": "CosmicShift"},
-    {"id": "4", "name": "Wistful IceCave"},
-    {"id": "5", "name": "Song 0"}
+    {"id": "4", "name": "Fading Signals"},
+    {"id": "5", "name": "Wistful IceCave"},
+    {"id": "6", "name": "Song 0"}
 ]
 
 @app.route("/")

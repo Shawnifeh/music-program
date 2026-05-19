@@ -5,8 +5,9 @@ const songs = {
   1: { name: "Parallel Horizon", src: "/Parallel Horizon.mp3" },
   2: { name: "Ghost Circuit", src: "/Ghost Circuit.mp3" },
   3: { name: "CosmicShift", src: "/CosmicShift.mp3" },
-  4: { name: "Wistful IceCave", src: "/Wistful IceCave.mp3" },
-  5: { name: "Song 0", src: "/Experiment_song_0.mp3" },
+  4: { name: "Fading Signals", src: "/Fading Signals.mp3" },
+  5: { name: "Wistful IceCave", src: "/Wistful IceCave.mp3" },
+  6: { name: "Song 0", src: "/Experiment_song_0.mp3" },
 };
 
 function SongPage() {
