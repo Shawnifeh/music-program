@@ -1,4 +1,4 @@
-function WillNeed() {
+function Settings() {
   return (
     <div>
       <h1>un avalible right now</h1>
@@ -6,4 +6,4 @@ function WillNeed() {
   );
 }
 
-export default WillNeed;
+export default Settings;

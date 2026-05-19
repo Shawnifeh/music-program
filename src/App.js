@@ -3,7 +3,8 @@ import Home from "./Home";
 import SongPage from "./SongPage";
 import './App.css';
 import InfoPage from "./InfoPage";
-import WillNeed from "./WillNeed";
+import Settings from "./Settings";
+import FeedbackPage from "./FeedbackPage";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/song/:id" element={<SongPage />} />
         <Route path="/info/:id" element={<InfoPage />} /> 
-        <Route path="/extras/:id" element={<WillNeed />} /> 
+        <Route path="/settings/:id" element={<Settings />} /> 
+        <Route path="/feedbackPage" element={<FeedbackPage />} />
       </Routes>
     </Router>
  );

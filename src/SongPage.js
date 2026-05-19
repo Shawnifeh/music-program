@@ -4,31 +4,36 @@ import "./SongPage.css";
 
 const songs = {
   1: {
+    name: "Digital Memory",
+    src: "/Digital Memory.mp3",
+  },
+  
+  2: {
     name: "Parallel Horizon",
     src: "/Parallel Horizon.mp3",
   },
 
-  2: {
+  3: {
     name: "Ghost Circuit",
     src: "/Ghost Circuit.mp3",
   },
 
-  3: {
+  4: {
     name: "CosmicShift",
     src: "/CosmicShift.mp3",
   },
 
-  4: {
+  5: {
     name: "Fading Signals",
     src: "/Fading Signals.mp3",
   },
 
-  5: {
+  6: {
     name: "Wistful IceCave",
     src: "/Wistful IceCave.mp3",
   },
 
-  6: {
+  7: {
     name: "Song 0",
     src: "/Experiment_song_0.mp3",
   },
