@@ -1,14 +1,8 @@
 .ui{
-    margin: 10px 0;
-    padding: 10px;
-    cursor: pointer;
-    background-color: rgb(70, 70, 70);
-    color: white;
-    border-radius: 5px;
-    font-size: larger;
-    border: 1px solid rgb(85, 85, 85);
-    text-decoration: none;
-    display: block;
-    width: 100%;
-    transition: ease-in-out 0.2s 
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+    font-size:18px;
+    font-weight:500;
+    background-color: rgb(49, 49, 49);
 }
