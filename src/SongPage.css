@@ -1,8 +1,24 @@
 .ui{
+    padding: 10px 20px;
     color:white;
     text-decoration:none;
     border-radius:5px;
-    font-size:18px;
-    font-weight:500;
-    background-color: rgb(49, 49, 49);
+    font-size:15px;
+    background-color: rgb(72, 72, 72);
+}
+
+.music-card{
+   background-color: rgb(48, 48, 48);
+}
+
+.play-button{
+    padding: 10px 20px;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+    font-size:15px;
+    background-color: rgb(72, 72, 72);
+    margin-top:20px;
+    border: none;
+    cursor: pointer;
 }

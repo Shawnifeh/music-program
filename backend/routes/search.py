@@ -9,7 +9,8 @@ songs = [
     {"id": "4", "name": "CosmicShift"},
     {"id": "5", "name": "Fading Signals"},
     {"id": "6", "name": "Wistful IceCave"},
-    {"id": "7", "name": "Song 0"}
+    {"id": "7", "name": "Afterglow"},
+    {"id": "8", "name": "Song 0"}
 ]
 
 @search_bp.route("/search")

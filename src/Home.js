@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import './Home.css';
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
+import SearchIcon from '@mui/icons-material/Search';
+
 
 function Home() {
-
   const [query, setQuery] = useState("");
-
   const [songs, setSongs] = useState([]);
-
   const [sidebarOpen, setSidebarOpen] = useState(true);
-
   // LOAD SONGS
 
   useEffect(() => {
@@ -42,7 +42,7 @@ function Home() {
         className="menu-btn"
         onClick={() => setSidebarOpen(true)}
       >
-        ☰
+        <MenuIcon />
       </button>
 
       {/* SIDEBAR */}
@@ -53,16 +53,28 @@ function Home() {
           className="close-btn"
           onClick={() => setSidebarOpen(false)}
         >
-          ✕
+          <CloseIcon />
         </button>
 
-        <Link to="/">Home</Link>
+<Link to="/">
+   Home
+</Link>
 
-        <Link to="/info/1">Info</Link>
+<Link to="/info/1">
+   Info
+</Link>
 
-        <Link to="/settings/1">Settings</Link>
+<Link to="/settings/1">
+   Settings
+</Link>
 
-        <Link to="/feedbackPage/">Feedback</Link>
+<Link to="/feedbackPage/">
+   Feedback
+</Link>
+
+<Link to="/LoginPage/">
+   LoginPage
+</Link>
 
       </div>
 
@@ -75,7 +87,7 @@ function Home() {
           onClick={searchSongs}
           className="search-btn"
         >
-          Search
+          <SearchIcon />
         </button>
 
         <input

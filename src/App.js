@@ -5,6 +5,7 @@ import './App.css';
 import InfoPage from "./InfoPage";
 import Settings from "./Settings";
 import FeedbackPage from "./FeedbackPage";
+import LoginPage from "./LoginPage";
 
 function App() {
   return (
@@ -15,11 +16,10 @@ function App() {
         <Route path="/info/:id" element={<InfoPage />} /> 
         <Route path="/settings/:id" element={<Settings />} /> 
         <Route path="/feedbackPage" element={<FeedbackPage />} />
+        <Route path="/LoginPage" element={<LoginPage />} />
       </Routes>
     </Router>
  );
 }
 
 export default App;
-
-

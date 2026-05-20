@@ -7,33 +7,31 @@ const songs = {
     name: "Digital Memory",
     src: "/Digital Memory.mp3",
   },
-  
   2: {
     name: "Parallel Horizon",
     src: "/Parallel Horizon.mp3",
   },
-
   3: {
     name: "Ghost Circuit",
     src: "/Ghost Circuit.mp3",
   },
-
   4: {
     name: "CosmicShift",
     src: "/CosmicShift.mp3",
   },
-
   5: {
     name: "Fading Signals",
     src: "/Fading Signals.mp3",
   },
-
   6: {
     name: "Wistful IceCave",
     src: "/Wistful IceCave.mp3",
   },
-
   7: {
+    name: "Afterglow",
+    src: "/Afterglow.mp3",
+  },
+  8: {
     name: "Song 0",
     src: "/Experiment_song_0.mp3",
   },
@@ -66,14 +64,11 @@ function SongPage() {
 
   return (
     <div>
-
+      <div className="music-card">
       <Link to="/" className="ui">
         Back
       </Link>
 
-      <div className="music-card">
-
-        <div className="cover-art"></div>
 
         <h1 className="song-title">
           {song.name}
