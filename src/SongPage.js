@@ -32,6 +32,10 @@ const songs = {
     src: "/Afterglow.mp3",
   },
   8: {
+    name: "Echoes Of Yesterday",
+    src: "/Echoes Of Yesterday.mp3",
+  },
+  9: {
     name: "Song 0",
     src: "/Experiment_song_0.mp3",
   },
