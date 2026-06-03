@@ -1,3 +1,16 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+body {
+  background: linear-gradient(0deg, #f3f3f3, #ffffff);
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+}
+
 .home-page{
     min-height:100vh;
     padding:30px;
@@ -13,8 +26,8 @@
     height:50px;
     border:none;
     border-radius:10px;
-    background:#111;
-    color:white;
+    background:#dedede;
+    color:rgb(24, 24, 24);
     font-size:25px;
     cursor:pointer;
     z-index:100;
@@ -22,7 +35,7 @@
 }
 
 .menu-btn:hover{
-    background:#1a1a1a;
+    background:#cccccc;
 }
 
 /* SIDEBAR */
@@ -33,14 +46,18 @@
     left:-250px;
     width:150px;
     height:100vh;
-    background:#0f0f0f;
+    background:#cacaca;
     display:flex;
     flex-direction:column;
     gap:10px;
     padding:30px 20px;
-    transition:0.3s ease;
+    
     z-index:200;
-    border-right:1px solid #2c2c2c;
+    border-right:1px solid #e9e9e9;
+    background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition:0.3s ease;
 }
 
 .sidebar.open{
@@ -50,7 +67,7 @@
 /* SIDEBAR LINKS */
 
 .sidebar a{
-    color:rgb(162, 162, 162);
+    color:rgb(0, 0, 0);
 
     text-decoration:none;
 
@@ -59,12 +76,13 @@
     padding:20px;
 
     border-radius:10px;
-
+    
+    background: linear-gradient(0deg, #e1e1e1, #d6d6d6);
     transition:0.2s;
 }
 
 .sidebar a:hover{
-    background:#141414;
+    background: linear-gradient(0deg, #efefef, #e9e9e9);
 }
 
 /* CLOSE BUTTON */
@@ -73,10 +91,10 @@
     align-self:flex-end;
     background:none;
     border:none;
-    color:white;
+    color:rgb(0, 0, 0);
     font-size:25px;
     border-radius: 5px;
-    background-color: #454545;
+    background-color: #c1c1c1;
     cursor:pointer;
 }
 
@@ -139,8 +157,8 @@
     padding:18px;
 
     cursor:pointer;
-    background:#111;
-    color:white;
+    background: linear-gradient(0deg, #d5d5d5, #c4c4c4);
+    color:rgb(0, 0, 0);
     border-radius:10px;
 
     font-size:20px;
@@ -154,7 +172,7 @@
 }
 
 .music-link:hover{
-    background:#121212;
+    background: linear-gradient(0deg, #e7e7e7, #dddddd);
 }
 
 .main-content{

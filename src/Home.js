@@ -14,7 +14,7 @@ function Home() {
 
   useEffect(() => {
 
-    fetch("https://music-backend-0n0h.onrender.com/search?q=")
+    fetch("http://127.0.0.1:5000/search?q=")
       .then(res => res.json())
       .then(data => setSongs(data));
 
@@ -25,7 +25,7 @@ function Home() {
   const searchSongs = () => {
 
     fetch(
-      "https://music-backend-0n0h.onrender.com/search?q=" + query
+      "http://127.0.0.1:5000/search?q=" + query
     )
       .then(res => res.json())
       .then(data => setSongs(data));

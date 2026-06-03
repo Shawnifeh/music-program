@@ -7,7 +7,7 @@ from PyQt6.QtWidgets import (
 )
 from PyQt6.QtGui import QFont
 
-BASE_URL = "http://127.0.0.1:5000"
+BASE_URL = "http://10.0.0.107:5000"
 
 
 class MusicApp(QWidget):
