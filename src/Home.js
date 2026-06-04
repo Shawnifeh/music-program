@@ -78,9 +78,9 @@ function Home() {
 
       </div>
 
-      <div className={`main-content ${sidebarOpen ? "shift" : ""}`}>
       {/* SEARCH */}
-
+<div className="nav-bar">
+  
       <div className="search-container">
 
         <button
@@ -98,7 +98,7 @@ function Home() {
         />
 
       </div>
-
+</div>
       {/* SONG LIST */}
 
       <div className="songs-container">
@@ -122,8 +122,6 @@ function Home() {
         ))}
 
       </div>
-
-    </div>
     </div>
   );
 }
