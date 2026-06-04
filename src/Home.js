@@ -80,6 +80,7 @@ function Home() {
 
       {/* SEARCH */}
 <div className="nav-bar">
+  <div className="search-wrapper">
   
       <div className="search-container">
 
@@ -91,16 +92,21 @@ function Home() {
         </button>
 
         <input
-          className="search-bar"
-          placeholder="Search music..."
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-        />
+  className="search-bar"
+  placeholder="Search music..."
+  value={query}
+  onChange={(e) => setQuery(e.target.value)}
+  onKeyDown={(e) => {
+    if (e.key === "Enter") {
+      searchSongs();
+    }
+  }}
+/>
 
+      </div>
       </div>
 </div>
       {/* SONG LIST */}
-
       <div className="songs-container">
 
         {songs.map((song) => (

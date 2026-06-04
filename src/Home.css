@@ -106,63 +106,69 @@ html, body {
     background-color: #b0b0b0;
 }
 
-.search-container{
+.search-container {
   display: flex;
-  justify-content: center;
-  margin-top: 100px;
-    width: 500px;
-  padding: 14px 20px;
-  border-radius: 30px;
-  border: 1px solid #dcdcdc;
-  outline: none;
-background: rgb(26, 26, 26);
-}
-
-.search-bar{
+  align-items: center;
   width: 500px;
   max-width: 90%;
-  border: none;
-  font-size: 16px;
-  outline: none;
   background: rgb(26, 26, 26);
-  color: rgb(255, 255, 255);
+  border-radius: 30px;
+  padding: 6px 10px;
+}
+
+.search-bar {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
 }
 
 .search-bar::placeholder{
     color:#777;
 }
 
-.search-btn{
-    border:none;
-    border-radius:100px;
-    color:rgb(255, 255, 255);
-    font-weight:bold;
-    font-size:0px;
-    cursor:pointer;
-    background: rgb(26, 26, 26);
-    transition:0.2s;
-
+.search-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  width: 100%;
 }
+
+.search-btn {
+  border: none;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+
 /* SONGS */
+.songs-container{
+    padding:30px;
+}
 
 .music-link{
-    margin:12px 0;
-
+    margin-bottom: 10px;
     padding:18px;
 
     cursor:pointer;
     background: linear-gradient(0deg, #d5d5d5, #c4c4c4);
     color:rgb(0, 0, 0);
-    border-radius:10px;
 
     font-size:20px;
-
+    
     text-decoration:none;
-
+border-radius:5px;
     display:block;
-
-    transition: ease-in;
-    border:none;
+border:1px solid #373737;
+    transition:0.3s ease;
+    
 }
 
 .music-link:hover{
