@@ -9,7 +9,7 @@ import SearchIcon from '@mui/icons-material/Search';
 function Home() {
   const [query, setQuery] = useState("");
   const [songs, setSongs] = useState([]);
-  const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
   // LOAD SONGS
 
   useEffect(() => {
