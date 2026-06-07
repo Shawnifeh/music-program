@@ -1,0 +1,9 @@
+C:\Users\shawn_6h3td1w\OneDrive\Desktop\Music\wedsite\music-app\audio-engine\target\debug\deps\zstd_sys-7a4fb850cfe74252.d: C:\Users\shawn_6h3td1w\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\zstd-sys-2.0.16+zstd.1.5.7\src\lib.rs C:\Users\shawn_6h3td1w\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\zstd-sys-2.0.16+zstd.1.5.7\src\bindings_zstd.rs C:\Users\shawn_6h3td1w\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\zstd-sys-2.0.16+zstd.1.5.7\src\bindings_zdict.rs
+
+C:\Users\shawn_6h3td1w\OneDrive\Desktop\Music\wedsite\music-app\audio-engine\target\debug\deps\libzstd_sys-7a4fb850cfe74252.rlib: C:\Users\shawn_6h3td1w\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\zstd-sys-2.0.16+zstd.1.5.7\src\lib.rs C:\Users\shawn_6h3td1w\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\zstd-sys-2.0.16+zstd.1.5.7\src\bindings_zstd.rs C:\Users\shawn_6h3td1w\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\zstd-sys-2.0.16+zstd.1.5.7\src\bindings_zdict.rs
+
+C:\Users\shawn_6h3td1w\OneDrive\Desktop\Music\wedsite\music-app\audio-engine\target\debug\deps\libzstd_sys-7a4fb850cfe74252.rmeta: C:\Users\shawn_6h3td1w\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\zstd-sys-2.0.16+zstd.1.5.7\src\lib.rs C:\Users\shawn_6h3td1w\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\zstd-sys-2.0.16+zstd.1.5.7\src\bindings_zstd.rs C:\Users\shawn_6h3td1w\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\zstd-sys-2.0.16+zstd.1.5.7\src\bindings_zdict.rs
+
+C:\Users\shawn_6h3td1w\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\zstd-sys-2.0.16+zstd.1.5.7\src\lib.rs:
+C:\Users\shawn_6h3td1w\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\zstd-sys-2.0.16+zstd.1.5.7\src\bindings_zstd.rs:
+C:\Users\shawn_6h3td1w\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\zstd-sys-2.0.16+zstd.1.5.7\src\bindings_zdict.rs:

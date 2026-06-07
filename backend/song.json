@@ -1,0 +1,92 @@
+[
+    {
+        "id": "9",
+        "name": "Digital Memory",
+        "album": "Digital Memory",
+        "priority": 100,
+        "src": "http://127.0.0.1:5000/music/Digital Memory.mp3",
+        "artist": "20neocrysis12",
+        "duration_seconds": 105,
+        "duration": "1:45"
+    },
+    {
+        "id": "8",
+        "name": "Parallel Horizon",
+        "album": "Parallel Horizon",
+        "priority": 90,
+        "src": "http://127.0.0.1:5000/music/Parallel Horizon.mp3",
+        "artist": "20neocrysis12",
+        "duration_seconds": 105,
+        "duration": "1:45"
+    },
+    {
+        "id": "7",
+        "name": "Ghost Circuit",
+        "album": "Ghost Circuit",
+        "priority": 80,
+        "src": "http://127.0.0.1:5000/music/Ghost Circuit.mp3",
+        "artist": "20neocrysis12",
+        "duration_seconds": 129,
+        "duration": "2:09"
+    },
+    {
+        "id": "6",
+        "name": "CosmicShift",
+        "album": "CosmicShift",
+        "priority": 70,
+        "src": "http://127.0.0.1:5000/music/CosmicShift.mp3",
+        "artist": "20neocrysis12",
+        "duration_seconds": 87,
+        "duration": "1:45"
+    },
+    {
+        "id": "5",
+        "name": "Fading Signals",
+        "album": "Fading Signals",
+        "priority": 60,
+        "src": "http://127.0.0.1:5000/music/Fading Signals.mp3",
+        "artist": "20neocrysis12",
+        "duration_seconds": 29,
+        "duration": "0:29"
+    },
+    {
+        "id": "4",
+        "name": "Wistful IceCave",
+        "album": "Wistful IceCave",
+        "priority": 50,
+        "src": "http://127.0.0.1:5000/music/Wistful IceCave.mp3",
+        "artist": "20neocrysis12",
+        "duration_seconds": 87,
+        "duration": "1:45"
+    },
+    {
+        "id": "3",
+        "name": "Afterglow",
+        "album": "Afterglow",
+        "priority": 40,
+        "src": "http://127.0.0.1:5000/music/Afterglow.mp3",
+        "artist": "20neocrysis12",
+        "duration_seconds": 87,
+        "duration": "1:45"
+    },
+    {
+        "id": "2",
+        "name": "Echoes Of Yesterday",
+        "album": "Echoes Of Yesterday",
+        "priority": 30,
+        "src": "http://127.0.0.1:5000/music/Echoes Of Yesterday.mp3",
+        "artist": "20neocrysis12",
+        "duration_seconds": 87,
+        "duration": "1:45"
+    },
+    {
+        "id": "1",
+        "name": "Song 0",
+        "album": "Song 0",
+        "priority": 20,
+        "src": "http://127.0.0.1:5000/music/Experiment_song_0.mp3",
+        "artist": "20neocrysis12",
+        "duration_seconds": 87,
+        "duration": "1:45"
+    }
+]

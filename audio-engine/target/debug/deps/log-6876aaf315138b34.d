@@ -1,0 +1,10 @@
+C:\Users\shawn_6h3td1w\OneDrive\Desktop\Music\wedsite\music-app\audio-engine\target\debug\deps\log-6876aaf315138b34.d: C:\Users\shawn_6h3td1w\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.32\src\lib.rs C:\Users\shawn_6h3td1w\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.32\src\macros.rs C:\Users\shawn_6h3td1w\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.32\src\serde.rs C:\Users\shawn_6h3td1w\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.32\src\__private_api.rs
+
+C:\Users\shawn_6h3td1w\OneDrive\Desktop\Music\wedsite\music-app\audio-engine\target\debug\deps\liblog-6876aaf315138b34.rlib: C:\Users\shawn_6h3td1w\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.32\src\lib.rs C:\Users\shawn_6h3td1w\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.32\src\macros.rs C:\Users\shawn_6h3td1w\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.32\src\serde.rs C:\Users\shawn_6h3td1w\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.32\src\__private_api.rs
+
+C:\Users\shawn_6h3td1w\OneDrive\Desktop\Music\wedsite\music-app\audio-engine\target\debug\deps\liblog-6876aaf315138b34.rmeta: C:\Users\shawn_6h3td1w\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.32\src\lib.rs C:\Users\shawn_6h3td1w\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.32\src\macros.rs C:\Users\shawn_6h3td1w\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.32\src\serde.rs C:\Users\shawn_6h3td1w\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.32\src\__private_api.rs
+
+C:\Users\shawn_6h3td1w\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.32\src\lib.rs:
+C:\Users\shawn_6h3td1w\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.32\src\macros.rs:
+C:\Users\shawn_6h3td1w\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.32\src\serde.rs:
+C:\Users\shawn_6h3td1w\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.32\src\__private_api.rs:

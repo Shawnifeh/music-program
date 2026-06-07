@@ -1,65 +1,32 @@
 import sys
 import requests
-from PyQt6.QtGui import QIcon
-from PyQt6.QtWidgets import (
-    QApplication, QWidget, QHBoxLayout, QVBoxLayout,
-    QPushButton, QListWidget, QLineEdit, QLabel
-)
-from PyQt6.QtGui import QFont
+from PyQt6.QtWidgets import QApplication, QWidget
+
+from ui import build_ui
+from song_page import SongPage  # make sure filename is correct
 
 BASE_URL = "http://10.0.0.107:5000"
 
 
 class MusicApp(QWidget):
+
     def __init__(self):
         super().__init__()
 
         self.setWindowTitle("Music Program")
-        self.setWindowIcon(QIcon("app_icon.ico"))
         self.showMaximized()
 
-        # MAIN LAYOUT (horizontal like Spotify)
-        main_layout = QHBoxLayout()
+        # build UI FIRST
+        self.setLayout(build_ui(self))
 
-        # ---------------- LEFT SIDEBAR ----------------
-        sidebar = QVBoxLayout()
+        # now widgets exist
+        self.song_list.itemClicked.connect(self.open_song)
 
-        title = QLabel("🎧 Music")
-        title.setFont(QFont("Arial", 18))
-        sidebar.addWidget(title)
-
-        home_btn = QPushButton("Home")
-        search_btn = QPushButton("Search")
-        liked_btn = QPushButton("Liked")
-
-        sidebar.addWidget(home_btn)
-        sidebar.addWidget(search_btn)
-        sidebar.addWidget(liked_btn)
-
-        sidebar.addStretch()
-
-        # ---------------- RIGHT CONTENT ----------------
-        content = QVBoxLayout()
-
-        self.search_box = QLineEdit()
-        self.search_box.setPlaceholderText("Search songs...")
-        content.addWidget(self.search_box)
-
-        self.search_btn = QPushButton("Search")
         self.search_btn.clicked.connect(self.search_songs)
-        content.addWidget(self.search_btn)
-
-        self.song_list = QListWidget()
-        content.addWidget(self.song_list)
-
-        # ADD BOTH SIDES
-        main_layout.addLayout(sidebar, 1)
-        main_layout.addLayout(content, 4)
-
-        self.setLayout(main_layout)
 
     def search_songs(self):
         query = self.search_box.text()
+
 
         res = requests.get(f"{BASE_URL}/search?q={query}")
         data = res.json()
@@ -69,8 +36,32 @@ class MusicApp(QWidget):
         for song in data:
             self.song_list.addItem("🎵 " + song["name"])
 
+    def open_song(self, item):
+        song_name = item.text().replace("🎵 ", "")
+
+        res = requests.get(f"{BASE_URL}/search?q={song_name}")
+        data = res.json()
+
+        if data:
+            song = data[0]
+
+            self.song_page = SongPage(song, self.play_song)
+            self.song_page.show()
+
+    def play_song(self, song):
+        print("Playing:", song["name"])
+
+
+def load_style(app):
+    with open("style.qss", "r") as f:
+        app.setStyleSheet(f.read())
+
 
 app = QApplication(sys.argv)
+
+load_style(app)
+
 window = MusicApp()
 window.show()
+
 sys.exit(app.exec())

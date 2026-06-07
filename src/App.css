@@ -10,8 +10,8 @@ html, body {
 }
 
 body {
-  background-color: rgb(29, 29, 29);
-  color: white;
+  background-color: rgb(205, 205, 205);
+  color: rgb(0, 0, 0);
   font-family: sans-serif;
 }
 

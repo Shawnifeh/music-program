@@ -108,7 +108,6 @@ function Home() {
 </div>
       {/* SONG LIST */}
       <div className="songs-container">
-
         {songs.map((song) => (
 
           <div
