@@ -1,3 +1,4 @@
+/*
 import { useEffect, useRef } from "react";
 
 export default function Waveform({ audioRef }) {
@@ -75,3 +76,4 @@ export default function Waveform({ audioRef }) {
     />
   );
 }
+  */

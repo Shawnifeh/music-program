@@ -1,7 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import { useRef, useState, useEffect } from "react";
 import "./SongPage.css";
-import Waveform from "./Waveform";
 
 
 const songs = [
@@ -81,10 +80,6 @@ function SongPage() {
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
 
-  const [audioData, setAudioData] = useState({
-  volume: 0,
-  beat: false
-});
 
 useEffect(() => {
   const audio = audioRef.current;
@@ -108,6 +103,7 @@ useEffect(() => {
   };
 }, []);
 
+/*
 useEffect(() => {
   const interval = setInterval(async () => {
     try {
@@ -121,7 +117,7 @@ useEffect(() => {
 
   return () => clearInterval(interval);
 }, []);
-
+*/
   useEffect(() => {
 
     if (!audioRef.current) return;
